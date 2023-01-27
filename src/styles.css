@@ -1,0 +1,41 @@
+#app {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 15px 10px 15px 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4545ee;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+
+
+}
+
+button:hover {
+    background-color: #2626cb;
+    cursor: pointer;
+}
+button:active {
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+button:disabled {
+    background-color: darkgray;
+}
+
+
+
+
